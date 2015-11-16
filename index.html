@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Puzzle</title>
+	 <link rel="stylesheet" type="text/css" href="css/resetstyle.css" />
+	  <link rel="stylesheet" type="text/css" href="css/imagestyle.css" />
+	  <script type="text/javascript" src="js/jquery.min.js"></script>
+	  <script type="text/javascript" src="js/imgaefile.json"></script>
+	  <script type="text/javascript" src="js/script.js"/></script>      
+</head>
+<body>
+<div class="wrapper">
+ 
+
+<!--****************************CONTAINER*****************************************   -->
+
+
+		<div class="container">
+			<div class="common" id="div1" draggable="true"></div>
+			<div class="common" id="div2" draggable="true"></div>
+			<div class="common" id="div3" draggable="true"></div>
+			<div class="common" id="div4" draggable="true"></div>
+			<div class="common" id="div5" draggable="true"></div>
+			<div class="common" id="div6" draggable="true"></div>
+			<div class="common" id="div7" draggable="true"></div>
+			<div class="common" id="div8" draggable="true"></div>
+			<div class="common" id="div9" draggable="true"></div>
+		</div>
+
+
+
+
+
+
+<!--****************************BUTTONGROUP*****************************************   -->
+
+
+
+		<div class="imageDetails">
+			<!--****************************SCORECARD*****************************************   -->
+			<h1>PUZZLE MASTER</h1> 
+
+			<div class="scoreCard">
+				
+				<h2>SCORE BOARD</h2>
+
+				<p> Moves</p>
+				<p id="score"></p>
+			</div>
+
+			<div class="btngroup">
+				<input type="button" value="SHUFFLE" id="shufflebtn"/>
+				  <select id="imageChange">
+					 <option value="null">Select Image</option>
+					<option value="one">image1</option>
+					<option value="two">image2</option>
+					 
+				</select>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="start">
+		<input type="button" value="START" id="startbtn"/>
+	</div>
+	<div id="imageSelection">
+		<h3>Please Select An Image..</h3>
+		<input type="button" value="PLAY AGAIN" class="play">
+	</div>
+    <div id="result">
+    	<h3>Completed In <span id="count"></span></h3>
+        <input type="button" value="PLAY AGAIN" class="playagain">
+       
+    </div>
+</body>
+	
+</html>

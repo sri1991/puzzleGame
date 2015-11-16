@@ -1,0 +1,220 @@
+/*----------------BODY---------------*/
+
+	body
+	{
+		background: #eee; 
+		position: relative;
+	}
+
+/*----------------WRAPPER---------------*/
+	.wrapper
+	{
+		width: 1000px;
+		margin:0 auto;
+		/*position: absolute;*/
+		 
+
+	}
+	 
+/*----------------left container---------------*/
+	
+	.container
+	{
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+		display: -ms-flexbox;      /* TWEENER - IE 10 */
+		display: -webkit-flex;     /* NEW - Chrome */
+		display: flex; 
+		width: 600px;
+		height: 600px;
+		flex-wrap:wrap;
+		margin: 20px 4px 0 4px;
+		float:left;
+			 
+	}
+	.common
+	{
+			min-width: 200px;
+			min-height: 200px;
+			text-align: center;
+			/*border: 1px solid #eee;*/
+	}
+
+	/*----------------right container---------------*/
+
+	.imageDetails
+	{
+			float:left;
+			margin:20px 0 0 20px ;
+
+
+	}
+	 h1
+	{
+		width:100%;
+		font: 40px bold helvetica;
+		color:#eee;
+		background-color: #4747A3;
+		padding:20px 0;
+		text-align: center;
+		border-bottom: 2px solid #eee;
+	}	
+	.btngroup
+	{
+			margin:20px 50px ;
+
+	}
+
+	#shufflebtn
+	{
+			width:100px;
+			height:45px;
+			border-radius: 6px;
+			outline: 0;
+			border: 0;
+			background-color: #7E7EBF;
+			color: #eee;
+			font:20px bold helvetica;
+	}
+	#shufflebtn:hover 
+	{
+		background-color: #fff;
+		color: #7E7EBF;
+		border: 1px solid #7E7EBF;
+		transition: 0.3s linear;
+	}
+	#play:hover
+	{
+		background-color: #fff;
+		color: #7E7EBF;
+		border: 1px solid #7E7EBF;
+		transition: 0.3s linear;
+	}
+	
+	#imageChange
+	{
+			background: #fff;
+			color:#7E7EBF;
+			height:40px;
+			border-radius: 6px;
+			border:1px solid #7E7EBF;
+			margin: 0 0 0 20px;
+			font:18px bold helvetica;
+	}
+	#imageChange:hover
+	{
+		background-color: #7E7EBF;
+		color: #FFF;
+		transition: 0.3s linear;
+	}
+	h2
+	{
+			font: 30px bold helvetica;
+			color: #4747A3;
+			padding: 20px 0px;
+			text-align: center;
+			border-top: 1px solid #7E7EBF;	 
+	}
+
+
+	p{
+		text-align: center;
+		color: #444;
+		font: 30px bold helvetica;
+		padding: 20px;
+	}
+	#score
+	{
+		margin: 0 auto;
+		width: 20px;
+		height: 20px;
+		color:  #444;
+		background-color: #7E7EBF;
+	}
+
+
+	#start  {
+		padding: 260px 0px;
+		background: #CCCCCC;
+		opacity: 0.8;
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+
+	}
+
+	#imageSelection {
+		padding: 260px 35%;
+		background: #CCCCCC;
+		opacity: 0.8;
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+
+	}
+	h3
+	{
+		font: 25px bold helvetica;
+		color: #4747A3;
+		margin: 10px 0px;
+		width: 255px;
+			 		 
+	}
+	 #result{
+		padding: 260px 400px;
+		background: #CCCCCC;
+		opacity: 0.8;
+		position: absolute;
+		z-index: 1;
+		 
+
+	}
+	#startbtn{
+		/*margin: 290px 406px;*/
+		width:200px;
+		height:100px;
+		border-radius: 45px;
+		outline: 0;
+		border: 0;
+		font: 50px bold helvetica;
+		background-color: green ;
+		color: #eee;
+		margin:0 40%;
+	}
+	#startbtn:hover{
+		background-color: #3333CC;
+		color: #7E7EBF;
+		border: 1px solid #7E7EBF;
+		transition: 0.3s linear;
+	}
+
+	
+	 .play {
+		width:100px;
+		height:70px;
+		border-radius: 45px;
+		outline: 0;
+		border: 0;
+		background-color: #3333CC;
+		color: #eee;
+		font:15px arial helvetica;
+		margin: 0 60px;
+
+	}
+
+	.playagain{
+		width:100px;
+		height:70px;
+		border-radius: 45px;
+		outline: 0;
+		border: 0;
+		background-color: #3333CC;
+		color: #eee;
+		font:15px arial helvetica;
+		 
+
+	}
+
+
+	
+	
